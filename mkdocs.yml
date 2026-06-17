@@ -1,0 +1,75 @@
+site_name: Deep Learning Tutorial
+site_description: Complete Deep Learning Course
+
+theme:
+  name: material
+
+  features:
+
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+    - search.suggest
+    - search.highlight
+
+    - content.code.copy
+
+
+markdown_extensions:
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - pymdownx.highlight
+
+  - pymdownx.arithmatex:
+      generic: true
+
+  - toc:
+      permalink: true
+
+
+plugins:
+
+  - search
+
+
+nav:
+
+  - Home: index.md
+
+
+  - Deep Learning:
+
+      - Introduction:
+          - Overview: index.md
+          - Definations: deep-learning/introduction.md
+
+      - Neural Networks:
+          - Neural Networks: deep-learning/neural-networks.md
+          - Learning Types: deep-learning/learning-types.md
+
+      - Fundamentals:
+          - Activation Functions: deep-learning/activation-functions.md
+          - Loss Functions: deep-learning/loss-functions.md
+          - Optimization: deep-learning/optimization.md
+          - Backpropagation: deep-learning/backpropagation.md
+
+      - Architectures:
+          - Architectures: deep-learning/architectures.md
+          - Computer Vision: deep-learning/computer-vision.md
+          - NLP: deep-learning/nlp.md
+
+      - Training:
+          - Regularization: deep-learning/regularization.md
+          - Evaluation Metrics: deep-learning/evaluation-metrics.md
+
+      - Frameworks:
+          - TensorFlow: deep-learning/tensorflow-examples.md
+          - PyTorch: deep-learning/pytorch-examples.md
+
+      - Advanced:
+          - Advanced Topics: deep-learning/advanced-topics.md
