@@ -49,7 +49,7 @@ nav:
           - Definations: deep-learning/introduction.md
 
       - Neural Networks:
-          - Neural Networks: deep-learning/neural-networks.md
+          - Introduction to Neural Networks: deep-learning/neural-networks.md
           - Learning Types: deep-learning/learning-types.md
 
       - Fundamentals:
