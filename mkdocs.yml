@@ -5,7 +5,6 @@ theme:
   name: material
 
   features:
-
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -16,9 +15,7 @@ theme:
 
     - content.code.copy
 
-
 markdown_extensions:
-
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -31,21 +28,18 @@ markdown_extensions:
   - toc:
       permalink: true
 
-
 plugins:
-
   - search
-
-
+  - meta
+  - mkdocs-jupyter
 nav:
-
   - Home: index.md
-
+  - Satellite-Indices:
+        - Spectral Indices: satellite-indices/imagery.ipynb
 
   - Deep Learning:
 
       - Introduction:
-          - Overview: index.md
           - Definations: deep-learning/introduction.md
 
       - Neural Networks:
